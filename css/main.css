@@ -93,7 +93,7 @@ h1 {
   width: 40px;
   position: absolute;
   right: 10px;
-  /*bottom: 10px;*/
+  top: 5px;
 }
 
 .jump-btn img {
@@ -122,14 +122,6 @@ h1 {
 .order-btn:hover {
   background-color: #333;
   color: #fff;
-}
-
-.store {
-
-}
-
-.slogan {
-
 }
 
 footer {
@@ -173,6 +165,14 @@ header nav a {
     width: 400px;
   }
 
+  .logo {
+    width: 200px;
+  }
+
+  .section-3 img {
+    width: 200px;
+  }
+
   .media {
   display: inline-block;
     width: 90px;
@@ -187,6 +187,33 @@ header nav a {
     line-height: 1.4
   }
 
+  .jump-btn {
+    width: 50px;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 608px;
+  }
+
+  .logo {
+    width: 304px;
+  }
+
+  .section-3 img {
+    width: 304px;
+  }
+
+  .media {
+  display: inline-block;
+    width: 100px;
+  }
+
+  .slogan {
+    position: absolute;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -194,6 +221,30 @@ header nav a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .jump-btn {
+    width: 60px;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 960px;
+  }
+
+  .logo {
+    width: 480px;
+  }
+
+  .section-3 img {
+    display: inline-block
+    width: 300px;
+  }
+
+  .media {
+  display: inline-block;
+    width: 110px;
   }
 
 }
