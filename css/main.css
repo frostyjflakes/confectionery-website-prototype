@@ -30,7 +30,7 @@ header {
 h1 {
   margin: 0;
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .nav {
@@ -41,8 +41,31 @@ h1 {
   display: none;
 }
 
+header li {
+
+}
+
 .nav li {
   display: inline-block;
+}
+
+header nav a {
+
+}
+
+.order-btn a {
+  color: #fff;
+  padding: 0.5em 0.75em;
+  background-color: #666;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.jump a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
 }
 
 .nav a {
@@ -76,13 +99,6 @@ h1 {
   width: 50%;
 }
 
-.jump a {
-  display: block;
-  padding: 0.5em;
-  text-decoration: none;
-  color: #000;
-}
-
 .jump a:hover {
   background-color: #333;
   color: #fff;
@@ -111,14 +127,6 @@ h1 {
   width: 50%;
 }
 
-.order-btn a {
-  color: #fff;
-  padding: 0.5em 0.75em;
-  background-color: #666;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
 .order-btn:hover {
   background-color: #333;
   color: #fff;
@@ -129,14 +137,6 @@ footer {
 }
 
 header nav {
-
-}
-
-header li {
-
-}
-
-header nav a {
 
 }
 
@@ -174,7 +174,7 @@ header nav a {
   }
 
   .media {
-  display: inline-block;
+    display: inline-block;
     width: 90px;
   }
 
@@ -184,7 +184,7 @@ header nav a {
 
   html {
     font-size: 110%;
-    line-height: 1.4
+    line-height: 1.4;
   }
 
   .jump-btn {
@@ -206,7 +206,7 @@ header nav a {
   }
 
   .media {
-  display: inline-block;
+    display: inline-block;
     width: 100px;
   }
 
@@ -243,7 +243,7 @@ header nav a {
   }
 
   .media {
-  display: inline-block;
+    display: inline-block;
     width: 110px;
   }
 
