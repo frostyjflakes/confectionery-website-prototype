@@ -27,7 +27,7 @@ header {
   position: relative;
 }
 
-header h1 {
+header h1, h3 {
   margin: 0;
   text-align: center;
   font-family: "Shadows Into Light", cursive;
@@ -125,7 +125,6 @@ header nav {
   padding: 0;
   list-style-type: none;
   text-align: center;
-  display: none;
 }
 
 .section-3 {
