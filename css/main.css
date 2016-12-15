@@ -27,30 +27,23 @@ header {
   position: relative;
 }
 
-h1 {
+header h1 {
   margin: 0;
   text-align: center;
   font-family: "Shadows Into Light", cursive;
 }
 
-.nav {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-  display: none;
-}
-
 header li {
-
-}
-
-.nav li {
   display: inline-block;
 }
 
 header nav a {
-
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #666;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 .order-btn a {
@@ -66,15 +59,6 @@ header nav a {
   padding: 0.5em;
   text-decoration: none;
   color: #000;
-}
-
-.nav a {
-  color: #fff;
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  background-color: #666;
-  border-radius: 4px;
-  text-decoration: none;
 }
 
 .nav a:hover {
@@ -137,7 +121,11 @@ footer {
 }
 
 header nav {
-
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: none;
 }
 
 .section-3 {
@@ -166,6 +154,10 @@ header nav {
   }
 
   .logo {
+    width: 200px;
+  }
+
+  .section-2 img {
     width: 200px;
   }
 
@@ -201,6 +193,10 @@ header nav {
     width: 304px;
   }
 
+  .section-2 img {
+    width: 304px;
+  }
+
   .section-3 img {
     width: 304px;
   }
@@ -208,10 +204,6 @@ header nav {
   .media {
     display: inline-block;
     width: 100px;
-  }
-
-  .slogan {
-    position: absolute;
   }
 
 }
@@ -234,6 +226,10 @@ header nav {
   }
 
   .logo {
+    width: 480px;
+  }
+
+  .section-2 img {
     width: 480px;
   }
 
