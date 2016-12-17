@@ -22,7 +22,6 @@ body {
 }
 
 header {
-  background-color: #e2e2e2;
   padding: 1em 0;
   position: relative;
 }
@@ -31,6 +30,7 @@ header h1, .section-3 h3 {
   margin: 0;
   text-align: center;
   font-family: "Shadows Into Light", cursive;
+  color: #fff;
 }
 
 header li {
@@ -73,7 +73,6 @@ header nav a {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #ccc;
   overflow: hidden;
   text-align: center;
 }
@@ -84,7 +83,7 @@ header nav a {
 }
 
 .jump a:hover {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
 }
 
@@ -94,6 +93,7 @@ header nav a {
   position: absolute;
   right: 10px;
   top: 5px;
+  background-color: #fff;
 }
 
 .jump-btn img {
@@ -108,16 +108,28 @@ header nav a {
   color: #000;
   text-decoration: none;
   text-align: center;
-  width: 50%;
+  width: 25%;
 }
 
 .order-btn:hover {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
 }
 
 footer {
   text-align: center;
+  color: #fff;
+  background-color: #000f9f;
+}
+
+header {
+  position: relative;
+}
+
+header h2 {
+  position: absolute;
+  left: 7.5rem;
+  bottom: 1rem;
 }
 
 header nav {
@@ -127,12 +139,47 @@ header nav {
   text-align: center;
 }
 
-.section-3 {
-  background-color: #e2e2e2;
+header,
+.section-3,
+.section-5 {
+  background-color: #000f9f;
+  color: #fff;
 }
 
-.section-5 {
-  background-color: #e2e2e2;
+.section-3 h3 {
+  font-size: 2rem;
+}
+
+.section-3 {
+  position: relative;
+}
+
+.slogan {
+  color: #000;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 320px
+}
+
+.logo {
+  width: 160px;
+}
+
+.section-2 img {
+  width: 160px;
+}
+
+.section-3 img {
+  width: 160px;
+}
+
+.media {
+  display: inline-block;
+  width: 77px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -166,8 +213,12 @@ header nav {
 
   .media {
     display: inline-block;
-    width: 90px;
+    width: 97px;
   }
+
+header h2 {
+  right: 2.5rem;
+}
 
 }
 
@@ -192,6 +243,10 @@ header nav {
     width: 304px;
   }
 
+  header h2 {
+    right: 2.5rem;
+  }
+
   .section-2 img {
     width: 304px;
   }
@@ -202,7 +257,7 @@ header nav {
 
   .media {
     display: inline-block;
-    width: 100px;
+    width: 148px;
   }
 
 }
@@ -233,9 +288,15 @@ header nav {
   }
 
   .section-3 img {
-    display: inline-block;
-    width: 300px;
+    margin: 0;
   }
+
+  .chocolates,
+  .candies,
+  .canes {
+  }
+
+  .section-3 {}
 
   .media {
     display: inline-block;
@@ -249,6 +310,34 @@ header nav {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .jump-btn {
+    width: 70px;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 1440px;
+  }
+
+  .logo {
+    width: 720px;
+  }
+
+  .section-2 img {
+    width: 720px;
+  }
+
+  .section-3 img {
+    display: inline-block;
+    width: 300px;
+  }
+
+  .media {
+    display: inline-block;
+    width: 120px;
   }
 
 }
