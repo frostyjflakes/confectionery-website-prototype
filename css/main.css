@@ -96,6 +96,12 @@ header nav a {
   background-color: #fff;
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
 .jump-btn img {
   display: block;
   width: 100%;
@@ -120,10 +126,6 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #000f9f;
-}
-
-header {
-  position: relative;
 }
 
 header h2 {
@@ -193,12 +195,6 @@ img {
     top: 5px;
   }
 
-  img {
-    display: block;
-    margin: auto;
-    width: 400px;
-  }
-
   .logo {
     width: 200px;
   }
@@ -216,9 +212,9 @@ img {
     width: 97px;
   }
 
-header h2 {
-  right: 2.5rem;
-}
+  header h2 {
+    right: 2.5rem;
+  }
 
 }
 
@@ -290,13 +286,6 @@ header h2 {
   .section-3 img {
     margin: 0;
   }
-
-  .chocolates,
-  .candies,
-  .canes {
-  }
-
-  .section-3 {}
 
   .media {
     display: inline-block;
