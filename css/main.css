@@ -99,8 +99,8 @@ header nav a {
 img {
   display: block;
   margin: auto;
-  width: 400px;
-}
+  width: 320px
+  }
 
 .jump-btn img {
   display: block;
@@ -159,12 +159,6 @@ header,
 .slogan {
   color: #000;
   text-align: center;
-}
-
-img {
-  display: block;
-  margin: auto;
-  width: 320px
 }
 
 .logo {
